@@ -19,7 +19,6 @@ javascript:(function(){if(document.getElementById("faceoff"))return;let e=docume
 
 1. Copy this to your clipboard:
 
-2.
 ```js
 (function(){if(document.getElementById("faceoff"))return;let e=document.createElement("style");e.id="faceoff",e.innerHTML="html body .notion-presence-container { display: none !important; }",document.body.appendChild(e)})();
 ```
